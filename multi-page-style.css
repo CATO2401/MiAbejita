@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+#card {
+  height: 500px;
+  width: 800px;
+  margin: 5em auto;
+  display: flex;
+}
+
+#card h2 {
+  font-size: 3em;
+  margin: 0;
+  color: pink;
+  text-align: center;
+}
+
+#card p {
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 30px;
+}
+
+.side {
+  background: #eee;
+  height: 550px;
+  width: 400px;
+  padding: 10px;
+}
+
+.side.one {
+  width: 320px;
+  transform: skew(10deg, 20deg);
+  background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
+}
+
+.side.two {
+  transform: skew(10deg, -15deg);
+  background: linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+}
+
+.page-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff989e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Multi-Página</title>
+  <link rel="stylesheet" href="multi-page-style.css">
+</head>
+<body>
+  <div id="card">
+    <div class="side one"></div>
+    <div class="side two">
+      <div class="page-content" id="page-content"></div>
+      <div class="page-controls">
+        <button id="prev-page" disabled>Anterior</button>
+        <button id="next-page">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="multi-page-script.js"></script>
+</body>
+</html>
